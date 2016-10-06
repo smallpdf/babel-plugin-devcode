@@ -1,0 +1,35 @@
+{
+  "name": "babel-plugin-devcode",
+  "version": "0.0.1",
+  "description": "Babel plugin that removes development code",
+  "main": "src/plugin.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "babel-core": "^6.17.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "mocha": "^3.1.0"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/smallpdf/babel-plugin-devcode.git"
+  },
+  "keywords": [
+    "babel",
+    "plugin",
+    "development",
+    "remove"
+  ],
+  "author": "Manuel Stofer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smallpdf/babel-plugin-devcode/issues"
+  },
+  "homepage": "https://github.com/smallpdf/babel-plugin-devcode#readme"
+}
